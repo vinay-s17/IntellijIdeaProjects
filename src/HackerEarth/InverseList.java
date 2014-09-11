@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class InverseList
 {
 	//ILParser parser = new ILParser(System.in);
-
+	// Class clashes bcas of main fn not in Parser
 	public static void main(String[] args) throws Exception
 	{
 		new InverseList().solve();
